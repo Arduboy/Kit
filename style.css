@@ -48,14 +48,14 @@ width: 100px;
 #progressTime{
 text-align: center;
 	  display: block;
-	  font-size: 25px;
+	  font-size: 18px;
 }
 
 
 #progressPercent{
 text-align: center;
 	   display: block;
-	  font-size: 70px;
+	  font-size: 60px;
 }
 
 
