@@ -29,9 +29,13 @@
 
 	
 <center>
-   <h1>Arduboy Web Flasher</h1>
-   <h3>Update your Arduboy FX with one click!<br>Get the most up to date collection of all the games!</h3>
-   <div id="progressBar" class="circular-progress" data-inner-circle-color="lightgrey" data-percentage="0" data-progress-color="#FBF157" data-bg-color="black">
+   <h1>Arduboy Kit Flasher</h1>
+   
+   <table>
+   <tr>
+   <td>
+   <center>
+      <div id="progressBar" class="circular-progress" data-inner-circle-color="lightgrey" data-percentage="0" data-progress-color="#FBF157" data-bg-color="black">
       <div class="inner-circle"></div>
       <div class="progressHolder">
          <div id="progressPercent"></div>
@@ -42,29 +46,52 @@
          </div>
       </div>
    </div>
-   <br>
-   <div class="bottomContainer">
+</center>
+   </td>
+   <td>
+   <center>
+    <div class="bottomContainer">
       <div class="fileButtonWrapper">
          <div class="restWrap">
             <div id="resetBtn"></div>
             <div id="fileButton">File Select</div>
          </div>
          <input id="fileInput" tabindex="-1" type="file"/>
-         <div id="fileName">Whole Enchilada.bin</div>
+         <div id="fileName">Arduboy Kit.bin</div>
       </div>
    </div>
-   <div id="instructions">- or -<br>Drag & Drop your own <span class="interesting">hex</span> <span class="interesting">bin</span> or <span class="interesting">arduboy</span> file anywhere on the page</div>
-   <h3>Instructions</h3>
-   <div id="instructions">Connect your Arduboy FX to USB and power on, then click the Upload button.<BR>The Arduboy FX must be in the bootloader menu to perform the upload.</div>
-   <h3>FAQ</h3>
-   <div id="instructions">.hex files are individual Arduboy games created using <a href="https://community.arduboy.com/t/make-your-own-arduboy-game-part-1-setting-up-your-computer/7924">Arduino</a> or download from the <a href="https://community.arduboy.com/c/games/35">Arduboy Community</a>.</div>
-      <div id="instructions">.bin files are a collection of Arduboy games, to be stored on the external memory of the Arduboy FX.</div>
-	     <div id="instructions">Create .bin files using the <a href="https://community.arduboy.com/t/arduboy-fx-cart-builder/10395">Online Cart Builder</a> or Mr. Blinky's <a href="https://community.arduboy.com/t/using-python/7745">Arduboy Python Utilities</a>.</div>
-	     <div id="instructions">.arduboy files contain both the .hex and .bin files needed to publish an Arduboy FX game. <a href="https://community.arduboy.com/t/arduboy-game-format-guide-arduboy-files/2784">Learn more about the .arduboy format</a>.</div>
-		    <div id="instructions">For all of your more advanced and offline Arduboy needs please see: <a href="https://community.arduboy.com/t/arduboy-toolset/11227">Arduboy Toolset</a></div>
-   <br><br>
-   <div class="credits">Thank you to Mr. Blinky, Haloopdy and Benjamin Naigener!</div>
+   <div id="instructions"><br>Drag & Drop your own <span class="interesting">hex</span> <span class="interesting">bin</span> or <span class="interesting">arduboy</span> file anywhere on the page</div>
+   <BR>
+   <div id="instructions">Connect your Arduboy Kit, then click the Upload button.<BR>The Arduboy Kit must be in the bootloader menu to perform the upload.</div>
+   </center>
+   </td>
+   </tr>
+   </table>
+   
+   <BR>
+   <H1>Arduboy Kit Instructions</H1>
+   <table cellpadding="30">
+   <tr>
+   <td align="center">
+   <a href="Instructions.html">
+   <img src="images/webdoc.png"  class="linkIco">
+   <BR>
+   Web
+   </a>
+   </td>
+   <td align="center">
+   <a href="Instructions.pdf">
+   <img src="images/pdfdoc.png"  class="linkIco">
+   <BR>
+   Print
+   </a>
+   </td>
+   </tr>
+   </table>
 </center>
+  
+
+
 
 
 	
@@ -441,7 +468,7 @@ async function handleSubmit(e) {
 
         // If no file is provided, use the default file
 
-        const response = await fetch('Whole Enchilada.bin');
+        const response = await fetch('Arduboy Kit.bin');
         if (!response.ok) {
             alert("Error loading default file");
             return;
