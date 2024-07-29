@@ -25,13 +25,14 @@ List of required materials along with URL links to source the components. The li
 ## Instructions
 
 For instructions how to assemble the board are available within this repo:
-<a href="https://arduboy.github.io/Kit/Instructions.html">Web Instructions</a>
-<a href="https://arduboy.github.io/Kit/Instructions.pdf">Print Instructions</a>
+- <a href="https://arduboy.github.io/Kit/Instructions.html">Web Instructions</a>
+- <a href="https://arduboy.github.io/Kit/Instructions.pdf">Print Instructions</a>
 
 A web utility for flashing all of the games to the Kit is within this repo:
-<a href="./index.html">Arduboy Kit Web Flasher</a>
+- <a href="./index.html">Arduboy Kit Web Flasher</a>
+
 and hosted at:
-<a href="https://arduboy.github.io/Kit">arduboy.github.io/Kit</a>
+- <a href="https://arduboy.github.io/Kit">arduboy.github.io/Kit</a>
 
 ## 3d Printables
 
