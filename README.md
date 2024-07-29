@@ -4,7 +4,7 @@ This repository includes all of the files you need to build your own Arduboy Kit
 
 ## Eagle and Gerber Board Files
 
-Use your favorite PCB board manufacturer to produce your own circuit boards
+Use your favorite PCB board manufacturer to produce your own circuit boards. Files are contained within the Board Files folder
 
 ## Bill of Materials
 
