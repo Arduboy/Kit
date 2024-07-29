@@ -1,38 +1,19 @@
-# Arduboy Web Flasher
+# Arduboy Kit
 
-This is a simple online tool that uses the web serial api to flash the Arduboy.
+This repository includes all of the files you need to build your own Arduboy Kit
 
-It is specifically designed for use with the Arduboy FX, although some features may still work with the original Arduboy.
+## Eagle and Gerber Board Files
 
-## How to use
+Use your favorite PCB board manufacturer to produce your own circuit boards
 
-1. Drag & Drop a .bin or .hex file anywhere within the page
-2. Click reset if the Arduboy FX is not at the loader menu (bootloader)
-3. Click Upload once the Arduboy FX is on the loader menu (bootloader)
+## Bill of Materials
 
-## To-do
+List of required materials along with URL links to source the components. The links are for reference only, and are not endorsements of any particular seller. Purchase at your own discretion.
 
-1. Add progress bar to .arduboy uploads
-2. Option to (safely) upload .bin to development data
-3. Turn code into library so it can easily be embedded into websites
+## Instructions
 
-## Possibly To-do
+For instructions how to assemble the board are available within this repo and at the minisite: arduboy.com/kit
 
-1. Ability to backup .hex and .bin file from device
-2. Ability to backup and upload EEPROM from device
-3. Ability to verify uploads
+## 3d Printables
 
-
-# Acknowledgements
-
-Thank you to @Mr. Blinky for his help with the Arduboy FX
-
-Based on code by Benjamin Naigener https://github.com/benjaminaigner/avr109-webserial
-
-@noopcat for [avrgirl-arduino](https://github.com/noopkat/avrgirl-arduino) which provided the HTML code.
-
-@bminer for [intel-hex.js](https://github.com/bminer/intel-hex.js) which provided the Intel HEX file parser
-
-
-
-
+The step file for the Arduboy Kit and an example bottom clamshell case are available within the 3d Files folder.

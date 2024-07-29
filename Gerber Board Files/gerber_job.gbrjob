@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2024-07-29T21:04:19Z",
+        "GenerationSoftware": {
+            "Application": "Fusion Electronics",
+            "Vendor": "Autodesk",
+            "Version": "9.7.0"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "Arduboy Kit v47"
+        },
+        "Owner": "Kevin Bates <kevin@bateske.com>",
+        "Size": {
+            "X": 102.986775,
+            "Y": 76.224319
+        }
+    }
+}
