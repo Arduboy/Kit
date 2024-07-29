@@ -4,6 +4,16 @@
 
 This repository includes all of the files you need to build your own Arduboy Kit
 
+## Important Notes
+
+Arduboy Kit uses the "Alternate Wiring" pinout configuration. The pins necessary to match the production Arduboy FX are not available on the Pro-Micro module, and thus alternate assignments are made in software, at compile time using a custom board file. All code for the Arduboy Kit must be compiled for alternate wiring.
+
+Solder jumpers are available on the back of the PCB, to switch to a standard wiring configuration, however this requires placing a PNP transistor along with a resistor. This modification is currently undocumented.
+
+Additionally, Infrared LED has been placed instead of the Red led usually on Pin 9. An Infrared receiver has it's data pin instead of the Blue led usually on Pin 10.
+
+<img src="./images/Schematic.png">
+
 ## Eagle and Gerber Board Files
 
 Use your favorite PCB board manufacturer to produce your own circuit boards. Files are contained within the Board Files folder
