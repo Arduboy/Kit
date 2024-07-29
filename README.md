@@ -1,5 +1,7 @@
 # Arduboy Kit
 
+<img src="./images/ArduboyKit.png">
+
 This repository includes all of the files you need to build your own Arduboy Kit
 
 ## Eagle and Gerber Board Files
